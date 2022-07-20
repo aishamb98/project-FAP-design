@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorSecondary">#FF03DAC5</color>
+    <color name="colorSecondaryVariant">#FF018786</color>
+    <color name="colorOnSecondary">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#9a6261</color>
+    <color name="colorButton">#373738</color>
+
+    <color name="colorPrimaryDark">#7f744d</color>
+    <color name="colorAccent">#9a6261</color>
+    <color name="colorPrimary">#9a6261</color>
+    <color name="Darkgreen">#7f744d</color>
+    <color name="lightGrey">#d0d2d6</color>
+</resources>

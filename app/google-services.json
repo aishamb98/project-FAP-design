@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "302007767449",
+    "project_id": "fap-design",
+    "storage_bucket": "fap-design.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302007767449:android:47baf7a47b3951dc204308",
+        "android_client_info": {
+          "package_name": "com.project.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302007767449-8t3hju6sfpl4at0j97t5es6mrh511hc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAttOy1PJEs3AQZHk30HqhmDE2lQ_zbuKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302007767449-8t3hju6sfpl4at0j97t5es6mrh511hc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

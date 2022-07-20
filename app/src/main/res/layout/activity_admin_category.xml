@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    tools:context=".AdminCategoryActivity">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="WELCOME!"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/pink"
+        />
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:text="Choose a store to add a pruduct"
+        android:textAlignment="center"
+        android:textColor="@color/Darkgreen"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <TextView
+            android:id="@+id/homecenter"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="10dp"
+
+
+            android:text="
+            home center"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:background="@drawable/input_design"
+
+            />
+
+        <TextView
+            android:id="@+id/potteryBarn"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+
+
+            android:text="
+            pottery barn"
+
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+            android:background="@drawable/input_design"
+            />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/Ikea"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="10dp"
+
+
+            android:text="
+            ikea"
+            android:textAlignment="center"
+
+            android:textSize="40sp"
+            android:textColor="@color/pink"
+
+            android:textStyle="bold"
+            android:background="@drawable/input_design" />
+
+        <TextView
+            android:id="@+id/westelm"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+
+
+            android:text="
+            west elm"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/pink"
+
+            android:background="@drawable/input_design"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttons"
+        android:text="Check New Orders"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/buttons"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        />
+</RelativeLayout>

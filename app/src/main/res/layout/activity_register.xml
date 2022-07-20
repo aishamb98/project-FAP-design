@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greylogo"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <EditText
+        android:id="@+id/register_username_input"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_below="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="20dp"
+        android:hint="Name"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/Darkgreen"
+        android:textSize="19sp"
+        />
+
+    <EditText
+        android:id="@+id/register_phone_number_input"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:layout_below="@+id/register_username_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="20dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/Darkgreen"
+        android:textSize="19sp"
+        />
+
+
+    <EditText
+        android:id="@+id/register_password_input"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:layout_below="@+id/register_phone_number_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="20dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/Darkgreen"
+        android:textSize="19sp"
+        />
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/register_password_input"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:layout_marginHorizontal="70dp"
+
+        android:textAllCaps="false"
+        android:textSize="19sp"
+        android:text="Sign up"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>
